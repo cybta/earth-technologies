@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?th1wjo');
+  src:  url('fonts/icomoon.eot?th1wjo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?th1wjo') format('truetype'),
+    url('fonts/icomoon.woff?th1wjo') format('woff'),
+    url('fonts/icomoon.svg?th1wjo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-agribusiness:before {
+  content: "\e900";
+}
+.icon-architects:before {
+  content: "\e901";
+}
+.icon-banks:before {
+  content: "\e902";
+}
+.icon-contract:before {
+  content: "\e903";
+}
+.icon-donor-countries:before {
+  content: "\e904";
+}
+.icon-e-mobility:before {
+  content: "\e905";
+}
+.icon-energy-efficiency:before {
+  content: "\e906";
+  color: rgb(21, 23, 39);
+}
+.icon-energy-efficiency:after {
+  content: "\e907";
+  color: rgb(151, 163, 174);
+}
+.icon-environmentals:before {
+  content: "\e909";
+}
+.icon-factories:before {
+  content: "\e90a";
+}
+.icon-go-live:before {
+  content: "\e90b";
+}
+.icon-hospitals:before {
+  content: "\e90c";
+}
+.icon-hotels:before {
+  content: "\e90d";
+}
+.icon-icon:before {
+  content: "\e90e";
+}
+.icon-iot:before {
+  content: "\e90f";
+  color: rgb(0, 0, 0);
+}
+.icon-iot:after {
+  content: "\e910";
+  color: rgb(151, 163, 174);
+}
+.icon-iterations:before {
+  content: "\e91b";
+}
+.icon-ministries-of-energy:before {
+  content: "\e91c";
+}
+.icon-ministries-of-environment:before {
+  content: "\e91d";
+}
+.icon-municipalities:before {
+  content: "\e91e";
+}
+.icon-presentation:before {
+  content: "\e91f";
+}
+.icon-proposal:before {
+  content: "\e920";
+}
+.icon-realestate-developers:before {
+  content: "\e921";
+}
+.icon-renewable-energy:before {
+  content: "\e922";
+}
+.icon-schools:before {
+  content: "\e923";
+}
+.icon-search:before {
+  content: "\e924";
+}
+.icon-telecom-companies:before {
+  content: "\e925";
+}
+.icon-telecom-operators:before {
+  content: "\e926";
+}
+.icon-universities:before {
+  content: "\e927";
+}
+.icon-next:before {
+  content: "\ea3c";
+}
+.icon-prev:before {
+  content: "\ea40";
+}

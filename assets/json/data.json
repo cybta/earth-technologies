@@ -1,0 +1,366 @@
+{
+    "logo": "logo.svg",
+    "icon": "icon",
+    "pages": [
+        {
+            "id": "home",
+            "name": "Home",
+            "view": {
+                "quote": "Once you got a solar panel on a roof, energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                "author": "Fadi El Hakim",
+                "services": [
+                    {
+                        "id": "renewable-energy",
+                        "icon": "renewable-energy",
+                        "title": "Renewable Energy",
+                        "data": [
+                            {
+                                "id": "overview-photovoltaics",
+                                "title": "Overview Photovoltaics",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "assets/img/services/renewable-energy/overview-photovoltaics/img1.jpg",
+                                    "assets/img/services/renewable-energy/overview-photovoltaics/img2.jpg",
+                                    "assets/img/services/renewable-energy/overview-photovoltaics/img3.jpg"
+                                ]
+                            },
+                            {
+                                "id": "photovoltaic-systems",
+                                "title": "Photovoltaic Systems",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "assets/img/services/renewable-energy/photovoltaic-systems/img1.jpg",
+                                    "assets/img/services/renewable-energy/photovoltaic-systems/img2.jpg"
+                                ]
+                            },
+                            {
+                                "id": "solar-water-heating",
+                                "title": "Solar Water Heating",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "assets/img/services/renewable-energy/solar-water-heating/img1.jpg",
+                                    "assets/img/services/renewable-energy/solar-water-heating/img2.jpg"
+                                ]
+                            },
+                            {
+                                "id": "solar-street-lights",
+                                "title": "Solar Street Lights",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "assets/img/services/renewable-energy/solar-street-lights/img1.jpg",
+                                    "assets/img/services/renewable-energy/solar-street-lights/img2.jpg"
+                                ]
+                            },
+                            {
+                                "id": "solar-pumping",
+                                "title": "Solar Pumping",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "assets/img/services/renewable-energy/solar-pumping/img1.jpg",
+                                    "assets/img/services/renewable-energy/solar-pumping/img2.jpg"
+                                ]
+                            },
+                            {
+                                "id": "solar-kits",
+                                "title": "Solar Kits",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "assets/img/services/renewable-energy/solar-kits/img1.jpg",
+                                    "assets/img/services/renewable-energy/solar-kits/img2.jpg"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "energy-efficiency",
+                        "icon": "energy-efficiency",
+                        "title": "Energy Efficiency",
+                        "data": [
+                            {
+                                "id": "serv-2-1",
+                                "title": "Serv 2-1",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "img1.jpg",
+                                    "img2.jpg",
+                                    "img3.jpg",
+                                    "img4.jpg",
+                                    "img5.jpg"
+                                ]
+                            },
+                            {
+                                "id": "serv-2-2",
+                                "title": "Serv 2-2",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "img1.jpg",
+                                    "img2.jpg",
+                                    "img3.jpg",
+                                    "img4.jpg"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "iot",
+                        "icon": "iot",
+                        "title": "Internet of Things",
+                        "data": [
+                            {
+                                "id": "serv-3-1",
+                                "title": "Serv 3-1",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "img1.jpg",
+                                    "img2.jpg",
+                                    "img3.jpg",
+                                    "img4.jpg"
+                                ]
+                            },
+                            {
+                                "id": "serv-3-2",
+                                "title": "Serv 3-2",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "img1.jpg",
+                                    "img2.jpg",
+                                    "img3.jpg",
+                                    "img4.jpg"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "e-mobility",
+                        "icon": "e-mobility",
+                        "title": "E-Mobility",
+                        "data": [
+                            {
+                                "id": "serv-4-1",
+                                "title": "Serv 4-1",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "img1.jpg",
+                                    "img2.jpg",
+                                    "img3.jpg",
+                                    "img4.jpg"
+                                ]
+                            },
+                            {
+                                "id": "serv-4-2",
+                                "title": "Serv 4-2",
+                                "text": "Valar Morghulis any text goes here if the energy is free. Once we convert our entire electricity grid to green and renewable energy, cost of living goes down.",
+                                "gallery": [
+                                    "img1.jpg",
+                                    "img2.jpg",
+                                    "img3.jpg",
+                                    "img4.jpg"
+                                ]
+                            },
+                            {
+                                "id": "serv-4-3",
+                                "title": "Fadi new test",
+                                "text": "do not angry me I am so strong for you.",
+                                "gallery": [
+                                    "img1.jpg",
+                                    "img2.jpg",
+                                    "img3.jpg",
+                                    "img4.jpg"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "gallery",
+            "name": "Gallery",
+            "view": {
+                "gallery": [
+                    "assets/img/gallery/img1.jpg",
+                    "assets/img/gallery/img2.jpg",
+                    "assets/img/gallery/img3.jpg",
+                    "assets/img/gallery/img4.jpg"
+                ]
+            }
+        },
+        {
+            "id": "milestones",
+            "name": "milestones",
+            "view": {
+                "listofmilestones": [
+                    {
+                        "id": "search",
+                        "icon": "search",
+                        "title": "DISCOVERY",
+                        "image": "assets/img/milestones/discovery.png",
+                        "text": "Lorem Ipsum, dolor set amet etc..."
+                    },
+                    {
+                        "id": "presentation",
+                        "icon": "presentation",
+                        "title": "PRESENTATION",
+                        "image": "assets/img/milestones/presentation.png",
+                        "text": "Lorem Ipsum, dolor set amet etc..."
+                    },
+                    {
+                        "id": "proposal",
+                        "icon": "proposal",
+                        "title": "PROPOSAL",
+                        "image": "assets/img/milestones/proposal.png",
+                        "text": "Lorem Ipsum, dolor set amet etc..."
+                    },
+                    {
+                        "id": "contract",
+                        "icon": "contract",
+                        "title": "Contract Establishment",
+                        "image": "assets/img/milestones/contract-establishment.png",
+                        "text": "Lorem Ipsum, dolor set amet etc..."
+                    },
+                    {
+                        "id": "golive",
+                        "icon": "go-live",
+                        "title": "GO-Live",
+                        "image": "assets/img/milestones/go-live.png",
+                        "text": "Lorem Ipsum, dolor set amet etc..."
+                    },
+                    {
+                        "id": "iterations",
+                        "icon": "iterations",
+                        "title": "Iteration",
+                        "image": "assets/img/milestones/Iteration.png",
+                        "text": "Lorem Ipsum, dolor set amet etc..."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "references",
+            "name": "References",
+            "view": {
+                "categories": [
+                    {
+                        "id": "zambia",
+                        "title": "Zambia",
+                        "mainImg": "assets/img/references/Zambia/1.jpg",
+                        "list": [
+                            {
+                                "imgSrc": "assets/img/references/Zambia/2.jpg",
+                                "desc": "Anything you want goes here"
+                            },
+                            {
+                                "imgSrc": "assets/img/references/Zambia/3.jpg",
+                                "desc": "Anything you want goes here"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "zambia2",
+                        "title": "Zambia",
+                        "mainImg": "assets/img/references/Zambia2/1.jpg",
+                        "list": [
+                            {
+                                "imgSrc": "assets/img/references/Zambia2/2.jpg",
+                                "desc": "Anything you want goes here"
+                            },
+                            {
+                                "imgSrc": "assets/img/references/Zambia2/3.jpg",
+                                "desc": "Anything you want goes here"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ourCustomers",
+            "name": "Our Customers",
+            "view": {
+                "slogon": "Brands we work with",
+                "customers": [
+                    {
+                        "id": "hospitals",
+                        "icon": "hospitals",
+                        "title": "HOSPITALS"
+                    },
+                    {
+                        "id": "hotels",
+                        "icon": "hotels",
+                        "title": "HOTELS"
+                    },
+                    {
+                        "id": "schools",
+                        "icon": "schools",
+                        "title": "SCHOOLS"
+                    },
+                    {
+                        "id": "factories",
+                        "icon": "factories",
+                        "title": "FACTORIES"
+                    },
+                    {
+                        "id": "municipalities",
+                        "icon": "municipalities",
+                        "title": "MUNICIPALITIES"
+                    },
+                    {
+                        "id": "banks",
+                        "icon": "banks",
+                        "title": "BANKS"
+                    },
+                    {
+                        "id": "telecom-operators",
+                        "icon": "telecom-operators",
+                        "title": "TELECOM OPERATORS"
+                    },
+                    {
+                        "id": "telecom-companies",
+                        "icon": "telecom-companies",
+                        "title": "TELECOM COMPANIES"
+                    },
+                    {
+                        "id": "realestate-developers",
+                        "icon": "realestate-developers",
+                        "title": "REAL ESTATE DEVELOPERS"
+                    },
+                    {
+                        "id": "architects",
+                        "icon": "architects",
+                        "title": "ARCHITECTS"
+                    },
+                    {
+                        "id": "agribusiness",
+                        "icon": "agribusiness",
+                        "title": "AGRIBUSINESSES"
+                    },
+                    {
+                        "id": "environmentals",
+                        "icon": "environmentals",
+                        "title": "ENVIRONMENTALISTS"
+                    },
+                    {
+                        "id": "donor-countries",
+                        "icon": "donor-countries",
+                        "title": "DONOR COUNTRIES"
+                    },
+                    {
+                        "id": "ministries-of-energy",
+                        "icon": "ministries-of-energy",
+                        "title": "MINISTRIES OF ENERGY"
+                    },
+                    {
+                        "id": "ministries-of-environment",
+                        "icon": "ministries-of-environment",
+                        "title": "MINISTRIES OF ENVIRONMENT"
+                    },
+                    {
+                        "id": "universities",
+                        "icon": "universities",
+                        "title": "UNIVERSITIES"
+                    }
+                ]
+            }
+        }
+    ]
+}

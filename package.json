@@ -1,0 +1,12 @@
+{
+  "name": "earth-technologies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=9878"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
