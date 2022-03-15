@@ -35,9 +35,20 @@ export default class InitCarousel {
 
     const listThumbs = this.arrayofItems;
 
+    const preloadImages = async (array) => {
+      await listThumbs.map(img => {
+        const imgpreload = new Image()
+        imgpreload.src = img
+        imgpreload.decode();
+      })
+      console.log('all set')
+    }
+    preloadImages(listThumbs)
+    
     listThumbs.map((item, index) => {
       carouselSlider.innerHTML += `<div id="thumb-${index}" data-thumb="${index}" class="thumbnail"><img src="${item}" /></div>`;
     });
+    
 
     const thumbId = 'thumb-' + focusedElIndex
     document.getElementById(thumbId).classList.add('active')

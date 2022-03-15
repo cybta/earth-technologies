@@ -529,3 +529,7 @@ main {
   font-size: 4vw;
   color: rgba(0, 0, 0, 0.35);
 }
+
+.dark .milestones span[class^="icon-"] {
+  color: rgba(255, 255, 255, 0.35);
+}
