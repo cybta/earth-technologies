@@ -1,4 +1,4 @@
-import InitCarousel from "../carousel.js";
+import { tns } from "/node_modules/tiny-slider/src/tiny-slider.js"
 
 const app = document.getElementById("app");
 const getServices = async () => {
@@ -20,26 +20,43 @@ const getServices = async () => {
 
   window.onresize = windowHeight();
 
-  htmlData = `
-    <div class="servicesPage flex jc-c ai-c fd-c" style="height:${windowHeight()}px">
-      <div><h1>${serviceData.title}</h1></div>
-      <div class="flex jc-c ai-c fw-w">
-        <div class="colw-50">
-          <div id="carouselContainer"></div>
+  const getDataService = () => {
+
+    const gallerArray = serviceData.gallery
+    let listGallery = ''
+    gallerArray.map(item => {
+      listGallery += `
+        <div>
+          <img src="${item}" />
         </div>
-        <div class="colw-50"><h5>${serviceData.text}</h5></div>
+      `
+    })
+
+    htmlData = `
+      <div class="servicesPage flex jc-c ai-c fd-c" style="height:${windowHeight()}px">
+        <div><h1>${serviceData.title}</h1></div>
+        <div class="flex jc-c ai-c fw-w">
+          <div class="colw-50">
+            <div id="servicesCarousel">${listGallery}</div>
+          </div>
+          <div class="colw-50 pl-25">${serviceData.text}</div>
+        </div>
       </div>
-    </div>
-  `;
+    `;
 
-  app.innerHTML = htmlData;
+    app.innerHTML = htmlData;
+  }
 
-  const carousel = new InitCarousel(
-    "carouselContainer",
-    serviceData.gallery,
-    1,
-    600
-  );
+  const renderGallery = async () => {
+    await getDataService()
+
+    tns({
+      container: '#servicesCarousel',
+      items: 1,
+    });
+  }
+  renderGallery()
+  
 };
 
 getServices();

@@ -19,8 +19,6 @@ const milestonesPage = (data, assetsPath) => {
   }
   getMilestones()
 
-  pageContent = `<div class="flex fw-w jc-c ai-c milestones">${getData}</div>`;
-
-  return pageContent;
+  return getData;
 };
 export default milestonesPage;

@@ -187,7 +187,7 @@
         },
         {
             "id": "milestones",
-            "name": "milestones",
+            "name": "Milestones",
             "view": {
                 "listofmilestones": [
                     {
@@ -239,36 +239,41 @@
             "id": "references",
             "name": "References",
             "view": {
-                "categories": [
+                "list": [
                     {
-                        "id": "zambia",
+                        "imgSrc": "assets/img/references/Zambia-1.JPG",
                         "title": "Zambia",
-                        "mainImg": "assets/img/references/Zambia/1.jpg",
-                        "list": [
-                            {
-                                "imgSrc": "assets/img/references/Zambia/2.jpg",
-                                "desc": "Anything you want goes here"
-                            },
-                            {
-                                "imgSrc": "assets/img/references/Zambia/3.jpg",
-                                "desc": "Anything you want goes here"
-                            }
-                        ]
+                        "desc": "Image ONE description"
                     },
                     {
-                        "id": "zambia2",
-                        "title": "Zambia",
-                        "mainImg": "assets/img/references/Zambia2/1.jpg",
-                        "list": [
-                            {
-                                "imgSrc": "assets/img/references/Zambia2/2.jpg",
-                                "desc": "Anything you want goes here"
-                            },
-                            {
-                                "imgSrc": "assets/img/references/Zambia2/3.jpg",
-                                "desc": "Anything you want goes here"
-                            }
-                        ]
+                        "imgSrc": "assets/img/references/Zambia-2.JPG",
+                        "title": "Zambia 2",
+                        "desc": "Image TWO description"
+                    },
+                    {
+                        "imgSrc": "assets/img/references/Baalbak-1.JPG",
+                        "title": "Baalbak",
+                        "desc": "Image THREE description"
+                    },
+                    {
+                        "imgSrc": "assets/img/references/Zambia-3.JPG",
+                        "title": "Zambia 3",
+                        "desc": "Image FOUR description"
+                    },
+                    {
+                        "imgSrc": "assets/img/references/Baalbak-2.JPG",
+                        "title": "Baalbek 2",
+                        "desc": "Image FIFTH description"
+                    },
+                    {
+                        "imgSrc": "assets/img/references/Baalbak-1.JPG",
+                        "title": "Baalbak",
+                        "desc": "Image SIX description"
+                    },
+                    {
+                        "imgSrc": "assets/img/references/Zambia-2.JPG",
+                        "title": "Baalbak",
+                        "desc": "Image SEVEN description"
                     }
                 ]
             }

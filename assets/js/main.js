@@ -1,4 +1,6 @@
-import render from "./render.js";
+// import render from "./render.js";
+import render from "./singleRender.js";
+
 window.app = document.getElementById("app");
 
 const main = async () => {

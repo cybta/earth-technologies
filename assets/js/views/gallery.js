@@ -1,22 +1,27 @@
-import InitCarousel from "../carousel.js";
-
-const galleryPage = async (data, assetsPath) => {
-  await data;
-  await assetsPath;
-
+const galleryPage = async (data) => {
+  const main = document.getElementById('pageContent')
+  const getData = await data;
+    
   window.hidePreloader();
 
-  const galleryList = data.gallery;
-  let galArray = [];
+  const galleryList = getData.gallery;
+  let galArray = '';
 
-  const getImages = () => {
-    galleryList.map((image) => {
-      galArray.push(image);
-    });
-  };
+    const getImages = () => {
+      galleryList.map((image, index) => {
+        galArray += `<div><img src="${image}" /></div>`
+      });
+    };
 
-  getImages();
-  const carousel = new InitCarousel("carouselContainer", galArray, 3);
+    getImages();
+
+    return `
+      <div id="gallery-Carousel"  class="my-slider">
+        ${galArray}
+      </div>
+    `;
+
+  
 };
 
 export default galleryPage;

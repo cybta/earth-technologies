@@ -18,14 +18,13 @@ const ourCustomersPage = (data, assetsPath) => {
   };
 
   const dataCustomers = `
-    <div class="dataCustomers flex jc-c ai-c fd-c">
+    <section class="dataCustomers flex jc-c ai-c fd-c fw fh">
       <h1>${data.slogon}</h1>
       <div class="customersList flex jc-c ai-c fw-w">${iconsList()}</div>
-    </div>
+    </section>
   `;
 
   pageContent = dataCustomers;
-  console.log(data);
 
   return pageContent;
 };

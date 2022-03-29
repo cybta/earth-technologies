@@ -49,19 +49,19 @@ const homePage = (data, assetsPath) => {
   getServices();
 
   pageContent += `
-    <div class="landingPage" style="height: ${windowHeight()}px">
-      <img src="assets/img/logo.svg" />
-      <div class="scrollIcon scrollDown" id="scrollIcon">
-        <div class="mousey">
-          <div class="scroller"></div>
+      <div class="landingPage" style="height: ${windowHeight()}px">
+        <img src="assets/img/logo.svg" />
+        <div class="scrollIcon scrollDown" id="scrollIcon">
+          <div class="mousey">
+            <div class="scroller"></div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="homepage" id="homepage" style="height: ${windowHeight()}px">
-        <div></div> 
-        <div class="quote">${getQuote()}</div>
-        <div class="servicesList">${getServices()}</div>
-    </div>
+      <div class="homepage" id="homepage" style="height: ${windowHeight()}px">
+          <div></div> 
+          <div class="quote">${getQuote()}</div>
+          <div class="servicesList">${getServices()}</div>
+      </div>
   `;
 
   return pageContent;
